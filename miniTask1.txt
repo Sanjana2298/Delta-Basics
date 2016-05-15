@@ -1,0 +1,21 @@
+1.What happens when we enter an address in the search box ?
+2.How does a search engine work ?
+3.Basics of HTML , CSS and JS .
+
+
+What I learnt from internet - 
+
+Before checking out the internet , what I knew was just that every domain name has an IP address which signifies the address of the server of the page we are requesting the server to display . I was unaware of the background processes happening . I got to understand after watching few videos and checking few pages .
+
+1.This is what happens when we enter an URL in the address box - 
+    The browser will extract the domain name from the URL . It looks upon the browser cache if that website had been already visited for getting the IP address. If it is empty , it will check the cache present in the OS . If even that is empty , the browser will send request to the DNS server . It returns the IP address ( 32-bit or 128-bit ) of the domain name . Now , the browser sends request to the server using GET . The server in return fetches the page from its database and sends it to the browser . Now , the browser displays the web pages for us .
+    DNS consists of 3 parts namely , Root name server , TLD name server and Authoritative name server . The OS commands the Resolving name server to check out all those name servers (looks complex , but the process happens within milliseconds) . Later , the IP address is stored in cache for future references .
+
+2.Working of a search engine -
+    
+    A search engine is an extraordinary tool which works in 3 stages - Web crawling , Indexing and Searching .
+    Web crawler uses a bot named spider , which takes the keywords we enter in the search box and checks various pages for the keyword and sends it for indexing .
+    In indexing , it is basically the process of numbering the pages according to their importance . This is done with several algorithms . The popular algorithm which is used by Google is Page Rank algorithm , which takes into account various factors to decide how important and relevant the page is . 
+    The searching part is what the users are able to see . The frequently used search terms , auto-completion of our search queries , the list of URLs , glance of the page and related searches comes under this . 
+
+3.Learning the basics . I am somewhere around implementation of OOP concepts in JS (though I'm not very much used to it ) . Will make sure I am strong with the basics of all the 3 in few days . :) 
